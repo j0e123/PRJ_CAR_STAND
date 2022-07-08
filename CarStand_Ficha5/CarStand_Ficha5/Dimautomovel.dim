@@ -1,0 +1,276 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1f764a14-e47e-4bb3-a0ba-58973f3c737a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dimautomovel</ID>
+  <Name>Dimautomovel</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1131" scrolltop="-2500" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4683" y="8573" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim.automovel" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3731" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000930e0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim.automovel" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1131</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2500</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="141">
+            <Shape Id="Automovel Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Automovel Key" />
+                <Attribute Id="Combustivel" />
+                <Attribute Id="Id Automovel" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Designacao" Expanded="false">
+              <Attributes>
+                <Attribute Id="Designacao" />
+              </Attributes>
+              <Position x="201" y="20" />
+            </Shape>
+            <Shape Id="Designacao Modelo" Expanded="false">
+              <Attributes>
+                <Attribute Id="Designacao Modelo" />
+              </Attributes>
+              <Position x="382" y="20" />
+            </Shape>
+            <Shape Id="Designacao Marca" Expanded="false">
+              <Attributes>
+                <Attribute Id="Designacao Marca" />
+              </Attributes>
+              <Position x="382" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="367937eb-c3e4-4c62-ab07-14c1f430fb36">
+    <DataSourceViewID>Dw CARSTAND</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="d50359d3-73dd-4807-a90f-4fc218b3cd9e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="3db2c0b5-4c58-4b34-b427-3cee0a688771">
+      <ID>Automovel Key</ID>
+      <Name>Automovel Key</Name>
+      <Type>ID</Type>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec60270f-de5a-40b6-873f-a527201068a6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c627f827-3a62-4463-b687-4e3afdc504ac">
+            <TableID>dbo_dim.automovel</TableID>
+            <ColumnID>automovel_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="52401e1d-2001-4105-bd8f-db43acad0843">
+          <AttributeID>Id Automovel</AttributeID>
+          <Name>Id Automovel</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5e8a69c8-3825-453f-8aae-b5938575c6a4">
+          <AttributeID>Combustivel</AttributeID>
+          <Name>Combustivel</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1acbf776-54cd-48b4-90fa-6ddab1b40239">
+          <AttributeID>Designacao</AttributeID>
+          <Name>Designacao</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5894d65f-4b8d-4433-a7e0-78c3350460df">
+      <ID>Id Automovel</ID>
+      <Name>Id Automovel</Name>
+      <Type>ID</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b9b0a4b-ff04-4e4e-925b-e073212feba9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eab7c4a3-7027-466d-b862-d2651015ff67">
+            <TableID>dbo_dim.automovel</TableID>
+            <ColumnID>id_automovel</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0770512f-87cc-43b1-bc22-95f13b81a88b">
+      <ID>Designacao</ID>
+      <Name>Designacao</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="33090cd4-6fe2-4df5-84a3-539520af2906">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ede94ad6-9caf-4106-9e3c-92564da24fec">
+            <TableID>dbo_dim.automovel</TableID>
+            <ColumnID>automovel_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dc80ba5f-f448-4e87-9dc4-7b775de148e8">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9897eb93-0645-4aef-ab4b-c14458e84aa3">
+          <TableID>dbo_dim.automovel</TableID>
+          <ColumnID>designacao</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e20e1e48-8eaa-4c4e-8b63-fdef3f8802f1">
+          <AttributeID>Designacao Marca</AttributeID>
+          <Name>Designacao Marca</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ef60988c-2763-48a9-a3dc-bb9b5637e2b5">
+          <AttributeID>Designacao Modelo</AttributeID>
+          <Name>Designacao Modelo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8040ca1-a99c-4302-916a-e3407d581b3c">
+      <ID>Combustivel</ID>
+      <Name>Combustivel</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="909a993a-1dbe-4a97-bf09-e7ecdf8bc181">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56643660-46d4-44a4-854f-8b226cf886b7">
+            <TableID>dbo_dim.automovel</TableID>
+            <ColumnID>combustivel</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="609fdc8f-fe04-4b8b-9567-c6a513f548d0">
+      <ID>Designacao Marca</ID>
+      <Name>Designacao Marca</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5e2fc89d-73ea-426b-947c-a9769bd1bfe5">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c3ffcef-fc4c-4d4c-b53a-9dbf908b24fd">
+            <TableID>dbo_dim.automovel</TableID>
+            <ColumnID>designacao_marca</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6cbe12e8-56c3-4216-8d64-9e2b96c6dd0d">
+      <ID>Designacao Modelo</ID>
+      <Name>Designacao Modelo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e833bd7-176b-47a6-aba5-239b4986f1ff">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3cff6890-f6c8-4d9a-ba26-8241048f6e5b">
+            <TableID>dbo_dim.automovel</TableID>
+            <ColumnID>designacao_modelo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c7ecf009-5c46-478a-9d3a-003705fedec5">
+      <ID>Hierarquia</ID>
+      <Name>Hierarquia</Name>
+      <Levels>
+        <Level dwd:design-time-name="0d535aaf-c361-4a45-b17a-53c3ab1a03ca">
+          <ID>Designacao Marca</ID>
+          <Name>Designacao Marca</Name>
+          <SourceAttributeID>Designacao Marca</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d2ba4be6-30be-4d5e-835f-e04dac61cef7">
+          <ID>Designacao Modelo</ID>
+          <Name>Designacao Modelo</Name>
+          <SourceAttributeID>Designacao Modelo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f71c2ff8-c53e-4c95-86db-b8dd259f529e">
+          <ID>Designacao</ID>
+          <Name>Designacao</Name>
+          <SourceAttributeID>Designacao</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

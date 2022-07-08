@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Prj_ISS_CARSTAND", "..\BI_TESTE\BI_TESTE\Prj_ISS_CARSTAND.dtproj", "{04140609-0B1A-4A99-95B9-AC4BD35812EE}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Prj_AS_CARSTAND", "BI_T\Prj_AS_CARSTAND.dwproj", "{89C86751-E3B9-4EEC-B0B0-94C8AB962373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04140609-0B1A-4A99-95B9-AC4BD35812EE}.Development|Default.ActiveCfg = Development
+		{04140609-0B1A-4A99-95B9-AC4BD35812EE}.Development|Default.Build.0 = Development
+		{89C86751-E3B9-4EEC-B0B0-94C8AB962373}.Development|Default.ActiveCfg = Development
+		{89C86751-E3B9-4EEC-B0B0-94C8AB962373}.Development|Default.Build.0 = Development
+		{89C86751-E3B9-4EEC-B0B0-94C8AB962373}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B61A443-36E0-46DE-9B7B-39E0EB8488EC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>BI</Database>
+    <Server>DELL-LATITUDE\BI</Server>
+    <ConnectionString>Data Source=DELL-LATITUDE\BI;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>RC0q7yiF9Z/BnhDi9xw1TdpIonM=07/07/2022 17:09:5307/07/2022 14:50:22</TimeStamp>
+        <ID>
+          <String>Dw CARSTAND</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>2+eNAps2aUxJ+xkfs+BtqGrNqvg=07/07/2022 21:18:2307/07/2022 14:51:28</TimeStamp>
+        <ID>
+          <String>Dw CARSTAND</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9fwREemRxOvtQtjrkLY/Tq/M/Us=07/07/2022 15:00:3007/07/2022 14:54:43</TimeStamp>
+        <ID>
+          <String>Dimlocal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XEOhAFfCwBQVZFGJr01fd48Yvf0=07/07/2022 15:09:5507/07/2022 15:09:55</TimeStamp>
+        <ID>
+          <String>Dimstand</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bff3tNqstkhZewXcz1LWXE0zN9Y=07/07/2022 15:13:3607/07/2022 15:11:05</TimeStamp>
+        <ID>
+          <String>Dimautomovel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2Zz8MeFPvDxDjWZSpTfaR2zTV7o=07/07/2022 16:29:4407/07/2022 15:37:46</TimeStamp>
+        <ID>
+          <String>Dimtempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>d2K7Mi9jF6fB91JXdJJ9zKCb/pg=07/07/2022 16:33:2807/07/2022 16:33:28</TimeStamp>
+        <ID>
+          <String>Dimcliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>n+ESkPhuIHwFuoc3dIzay43bBBI=07/07/2022 22:28:5507/07/2022 21:57:55/r3HdJDyHs8WEly3uVqY53lkONs=07/07/2022 22:17:3107/07/2022 21:57:55</TimeStamp>
+        <ID>
+          <String>Cubo_CARSTAND</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>6DS0c0Tr6zdZNOOc4dVV1D+a2Js=07/07/2022 22:35:4807/07/2022 14:49:44</TimeStamp>
+      <ID>
+        <String>BI</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-07-07T21:36:51.673333Z</LastDeployed>
+</DeploymentSnapshot>

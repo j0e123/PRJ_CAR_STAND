@@ -1,0 +1,335 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="63721d77-356e-4979-bf0e-4e75cb3f84ab" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dw CARSTAND 1</ID>
+  <Name>Dw CARSTAND 1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="7d05e73b-7f78-4753-a7ce-6a8c20dc43db">
+      <ID>Factofaturacao</ID>
+      <Name>Factofaturacao</Name>
+      <DimensionID>Factofaturacao</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="805c1507-7b44-49c4-af81-cfd92acb215b">
+          <AttributeID>Id Fact2</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9346bf41-eff1-4cad-8a58-41bfcbd0c942">
+          <AttributeID>Id Automovel Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ccdb562-89f4-44ae-9032-1ae0fd93477a">
+          <AttributeID>Id Stand Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8eacd084-1f31-41b1-a53b-6465c1023cad">
+          <AttributeID>Id Local Cliente Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="853b0c4a-9292-4e2e-8428-4dc8ce6f87e0">
+          <AttributeID>Id Local Stand Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc14e88d-179b-4099-872a-66087a132527">
+          <AttributeID>Id Tempo Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="81266159-ec1d-4200-9c42-ac0e5e7b2ed6">
+      <ID>Id Local Cliente</ID>
+      <Name>Id Local Cliente</Name>
+      <DimensionID>Dimlocal</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="89b45bde-a5b3-4aa2-8c1f-126a759dda90">
+          <AttributeID>Local Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f90589e0-ca1c-4730-9944-e62a2367dec6">
+          <AttributeID>Designacao Postal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04744a38-0b03-41e7-be92-1877a3b06106">
+          <AttributeID>Concelho</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4cd21fa-2d1a-4535-82c9-3d8ebb1b92c8">
+          <AttributeID>Distrito</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8b2f384e-63a4-45df-b900-50423fe101c6">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5bb9da88-e085-41f5-bc29-2ab191fec8bf">
+      <ID>Id Local Stand</ID>
+      <Name>Id Local Stand</Name>
+      <DimensionID>Dimlocal</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6a509067-eec4-4576-b359-7126dad7895f">
+          <AttributeID>Local Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8baf4406-9a17-4d5c-a760-0eff3030f998">
+          <AttributeID>Designacao Postal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eb3d0afd-0977-4fcc-be07-b365d919b28e">
+          <AttributeID>Concelho</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="137f40e2-4c2e-4e68-ac4d-267785159df5">
+          <AttributeID>Distrito</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="098f0081-fad7-4161-ba40-bda795bdd9b5">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="331189ae-3208-4585-9773-9d17c868c4ae">
+      <ID>Dimautomovel</ID>
+      <Name>Dimautomovel</Name>
+      <DimensionID>Dimautomovel</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f48d2ed1-6868-4b60-a8b0-237a52098646">
+          <AttributeID>Automovel Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2175ce1-1e2a-4557-a3fa-63c7ac186e72">
+          <AttributeID>Designacao</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5ddc6d3-370f-4907-b4c6-d1ed15536d86">
+          <AttributeID>Designacao Marca</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e2323bed-4b3f-4669-a703-9ba0cae7cb48">
+          <AttributeID>Designacao Modelo</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5c1d1d74-aefb-45ab-ba7d-dab5fd8ad8f7">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="7ade28bb-8f5b-4437-bafb-3fe0cdb98497">
+      <ID>Dimstand</ID>
+      <Name>Dimstand</Name>
+      <DimensionID>Dimstand</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="67ba45ed-35b2-42ff-a9aa-d67b8f771a8f">
+          <AttributeID>Stand Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d4c59b46-191d-491d-b3dc-bb41feba877b">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d3c6f9d1-f61f-434b-9e3d-d182606d17a3">
+          <AttributeID>Designacao</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6b658415-4e22-44eb-8775-8bec22eeacdc">
+      <ID>Dimtempo</ID>
+      <Name>Dimtempo</Name>
+      <DimensionID>Dimtempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="85502390-7b99-44fa-9ccf-d1777324429a">
+          <AttributeID>Tempo Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5da26e3a-39e1-443d-8a9b-82346674a230">
+          <AttributeID>Mes Do Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9740e0c9-7dfa-4e40-8d6a-81d3ce6cec82">
+          <AttributeID>Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="173420d7-ca61-4833-b78a-ef0c1536f89c">
+          <AttributeID>Ano Nome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5168515-6fa6-431e-8f1b-cccd7c8abb99">
+          <AttributeID>Mes Nome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8db613c-a059-4b61-969b-f4531bb3b086">
+          <AttributeID>Semestre Do Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de790249-dc44-49d4-b222-11bc47f217f6">
+          <AttributeID>Trimestre Do Ano</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d2efd641-ab74-460a-b9da-ef7f58f37c43">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="e2628603-faf6-4cee-accc-a85ed6649384">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="ca902427-623a-41dc-98f1-f297fd771fe6">
+      <ID>Factofaturacao</ID>
+      <Name>Factofaturacao</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="2d7fc21b-c7a8-432f-8de3-63af20bfafe0">
+          <ID>Total</ID>
+          <Name>Total</Name>
+          <Source dwd:design-time-name="bd48df2d-f89c-4827-affb-452b29a4f11f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68798f0b-9ad6-4ef8-ab2b-9bb128dd0c45">
+              <TableID>dbo_facto.faturacao</TableID>
+              <ColumnID>total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="86c73cd5-1379-430e-aac4-859031cb386e">
+          <CubeDimensionID>Factofaturacao</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="75b4a4ce-4ec1-4ba8-99fe-bd5ea2d5a910">
+              <AttributeID>Id Fact2</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6d9e1935-ab9f-4aa2-9426-9a447cef4223">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d5120e13-e072-4649-8467-3d04d947a1b9">
+                    <TableID>dbo_facto.faturacao</TableID>
+                    <ColumnID>id_fact2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3fd41d24-c1a7-41ff-8584-9a0cc379a3ad">
+          <CubeDimensionID>Dimautomovel</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f9809e2d-8f25-4d68-8d8d-660d695bac17">
+              <AttributeID>Automovel Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="46473ac7-4e90-4e2d-a50b-5ece954d2d5a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="725296b5-f6f6-47cc-b17f-fd41e28cddb7">
+                    <TableID>dbo_facto.faturacao</TableID>
+                    <ColumnID>id_automovel_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="af362985-ff38-44ea-b3e1-1bac2732bc6e">
+          <CubeDimensionID>Dimstand</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6bb2f242-a1c6-4fdc-8596-a0e05b824d76">
+              <AttributeID>Stand Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="28fceef0-04ca-4dcf-9816-b9ef8b868afa">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0439920f-a18f-4e9a-a811-1080370ef2da">
+                    <TableID>dbo_facto.faturacao</TableID>
+                    <ColumnID>id_stand_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="df50fdeb-20ff-4613-b73e-7a6ca423a516">
+          <CubeDimensionID>Id Local Cliente</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ae5aecf6-86e9-40a4-82ba-89e333b65827">
+              <AttributeID>Local Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8be00b0b-350f-46a9-9625-87cbc1c28304">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f331662a-a48e-4d74-9d0b-44a212900f45">
+                    <TableID>dbo_facto.faturacao</TableID>
+                    <ColumnID>id_local_cliente_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79d90eb0-a0e8-4250-a01c-41e2f53c2ca8">
+          <CubeDimensionID>Id Local Stand</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f745dfcb-e55a-4a78-92df-0897bc6961b2">
+              <AttributeID>Local Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="822b85bd-7931-4636-b814-dc82cb0bc652">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3af88f17-8fe3-47a1-b7df-9d78d309a1f7">
+                    <TableID>dbo_facto.faturacao</TableID>
+                    <ColumnID>id_local_stand_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="291579a1-241d-451b-8d81-0878c0d18ecd">
+          <CubeDimensionID>Dimtempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="efd1d466-0d02-49ae-b732-1f421b01609d">
+              <AttributeID>Tempo Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="551ebf71-9463-4ef4-ba61-952faf783a61">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2b116716-75a6-4a9e-a970-5ab0796a0731">
+                    <TableID>dbo_facto.faturacao</TableID>
+                    <ColumnID>id_tempo_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="99104727-9b17-4e2a-b0cb-1daabd8c32e3">
+    <DataSourceViewID>Dw CARSTAND</DataSourceViewID>
+  </Source>
+</Cube>
